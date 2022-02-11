@@ -1,0 +1,27 @@
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+[Oo]bj/ # FlashDevelop obj
+[Bb]in/ # FlashDevelop bin
+
+# Other files and folders
+.settings/
+
+# Dist
+# The 'dist' contains the results (that is JS files) of the compilation TS files. It should be ignored.
+# To avoid having to rewrite legacy, Js files, we should place such files in the 'src' folder.
+/dist 
+
+# Dependency directories
+node_modules/
+
+# Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
