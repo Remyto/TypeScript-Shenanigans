@@ -6,6 +6,7 @@
     "test": "npm run mocha -- ./dist/test/ -r ./dist/test/integration/bootstrap.js"
   },
   "dependencies": {
+    "express": "^4.17.2",
     "source-map-support": "^0.5.21"
   },
   "devDependencies": {

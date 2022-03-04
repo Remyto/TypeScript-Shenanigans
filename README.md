@@ -64,7 +64,7 @@ Alternativeliy, you can get a messy file with a lot of comments using this comma
 
 A few things to notice above:
 
-- We read all the files in the src or test or config directory (using the include flag).
+- We read all the files in the src or test or config or public:scripts directories (using the include flag).
 - We accept JavaScript files as inputs (using the allowJs flag).
 - We emit all of the output files in build (using the outDirflag).
 
